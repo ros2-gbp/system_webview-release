@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "includePath": [
+        "${workspaceFolder}/src/**",
+        "${env:ROS_DISTRO:+/opt/ros/${ROS_DISTRO}/include/**}",
+        "/usr/include/**"
+      ],
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "c11",
+      "cppStandard": "c++20"
+    }
+  ],
+  "version": 4
+}
