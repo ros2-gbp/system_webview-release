@@ -1,8 +1,11 @@
 Format: Bloom subset of https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: system_webview
-Source: https://github.com/namo-robotics/ros2_system_webview
+Upstream-Name: @(Name)
+@[if BugTracker]Upstream-Contact: @(BugTracker)@\n@[end if]@
+@[if Source]Source: @(Source)@\n@[end if]@
+@[for License, Text in Licenses]@
 
 Files: See file headers in repository for details
 Copyright: See package copyright in source code for details
-License: MIT
- See repository for full license text
+License: @(License)
+ @(Text)
+@[end for]@
