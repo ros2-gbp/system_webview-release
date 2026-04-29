@@ -1,0 +1,12 @@
+Source: ros-lyrical-system-webview
+Section: misc
+Priority: optional
+Maintainer: david <davewbrwn@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libcpp-httplib-dev, pkg-config, ros-lyrical-ament-cmake, ros-lyrical-ament-index-cpp, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-rclcpp, ros-lyrical-rosbridge-server, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/system_webview/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-system-webview
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcpp-httplib-dev, pkg-config, ros-lyrical-ament-index-cpp, ros-lyrical-rclcpp, ros-lyrical-rosbridge-server, ros-lyrical-ros-workspace
+Description: Real-time web-based system webview for ROS 2 — CPU, memory, swap, load average, and /rosout log viewer
